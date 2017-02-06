@@ -7,6 +7,7 @@ func main(){
 	c2 :=make(chan int)
 	c3 :=make(chan int)
 	var i1,i2 int
+	i1=1
 	go func() {
         time.Sleep(time.Second * 1)
         c1 <- 1
