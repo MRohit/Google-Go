@@ -18,5 +18,5 @@ func main(){
    y := 40.0
    fmt.Println(y)
    fmt.Printf("y is of type %T\n", y)
-   //10=20
+
 }
