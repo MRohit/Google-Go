@@ -1,2 +1,2 @@
 # Google-Go
-Learning Go and trying to build something productive
+Learning Go from scratch, understanding it's necessity in various projects. Trying to build something productive where I can use Go along with other technologies. 
