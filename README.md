@@ -8,6 +8,6 @@ Topics Learned so far:
 
 3. Switch case and type switch
 
-4. Functions (pass by value & pass by reference)
+4. Functions (Pass by value & Pass by reference)
 
 Trying to build something productive where I can use Go along with other technologies. 
