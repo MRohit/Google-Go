@@ -13,8 +13,9 @@ func main(){
 	
 }
 
+// without using third variable
 func swap(a* int,b* int){
 	*a = *a + *b
 	*b = *a-*b
-	a* = *a + *b
+	*a = *a - *b
 }
