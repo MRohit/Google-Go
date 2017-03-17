@@ -44,8 +44,11 @@ func main(){
 	
 	two:=TwoSquareRoot()
 	for i:=1; i < 10; i++ {
-		fmt.Printf("\n 2's table :%d",two())
+		fmt.Printf("\n 2's Root :%d",two())
 	}
-	
+	two:=TwoCubeRoot()
+	for i:=1; i < 10; i++ {
+		fmt.Printf("\n 2's Cube Root :%d",two())
+	}
 	
 }
