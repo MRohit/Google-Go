@@ -46,9 +46,9 @@ func main(){
 	for i:=1; i < 10; i++ {
 		fmt.Printf("\n 2's Root :%d",two())
 	}
-	two:=TwoCubeRoot()
+	two2:=TwoCubeRoot()
 	for i:=1; i < 10; i++ {
-		fmt.Printf("\n 2's Cube Root :%d",two())
+		fmt.Printf("\n 2's Cube Root :%d",two2())
 	}
 	
 }
