@@ -20,6 +20,15 @@ func TwoSquareRoot () func () int {
 	}
 }
 
+func TwoCubeRoot () func () int {
+	i:=1
+	
+	return func () int {
+		i*=3
+		return i
+	}
+}
+
 func main(){
 	nextValue :=getSequenceOfNumbers()
 	
@@ -37,4 +46,6 @@ func main(){
 	for i:=1; i < 10; i++ {
 		fmt.Printf("\n 2's table :%d",two())
 	}
+	
+	
 }
