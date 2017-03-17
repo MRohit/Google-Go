@@ -11,6 +11,15 @@ func getSequenceOfNumbers () func () int {
 	}
 }
 
+func TwoSquareRoot () func () int {
+	i:=1
+	
+	return func () int {
+		i*=2
+		return i
+	}
+}
+
 func main(){
 	nextValue :=getSequenceOfNumbers()
 	
@@ -24,5 +33,8 @@ func main(){
 	fmt.Printf("\nsecondNumber Value:%d",secondNumber())
 	fmt.Printf("\nsecondNumber Value:%d",secondNumber())
 	
-	
+	two:=TwoSquareRoot()
+	for i:=1; i < 10; i++ {
+		fmt.Printf("\n 2's table :%d",two())
+	}
 }
