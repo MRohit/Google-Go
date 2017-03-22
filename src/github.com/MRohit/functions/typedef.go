@@ -5,17 +5,18 @@ import (
    "math"
 )
 
-/* define a circle */
+// Define a structure
 type Circle struct {
-   x,y,radius float64
+	x,y,radius float64
 }
 
-/* define a method for circle */
-func(circle Circle) area() float64 {
-   return math.Pi * circle.radius * circle.radius
+// define method which will be associated with structure
+func (circle Circle) area() float64 {
+	return math.Pi*circle.radius * circle.radius
 }
 
 func main(){
-   circle := Circle{x:0, y:0, radius:5}
-   fmt.Printf("Circle area: %f", circle.area())
+	// create structure reference
+	circle := Circle {x:0,y:0,radius:5}
+	fmt.Printf("Circle area:%f", circle.area())
 }
