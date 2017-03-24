@@ -2,8 +2,35 @@ package main
 import "fmt"
 
 func main(){
-	var a = [5][2]int{ {0,0}, {1,2}, {2,4}, {3,6},{4,8}}
-	fmt.Printf("\nTwo Dimensional Array:\n")
+	var a = [5][2]int{ {23,19}, {1,2}, {2,4}, {3,6},{4,8}}
+	var b = [5][2]int{ {2,3}, {4,2}, {3,9}, {11,12},{15,17}}
+	fmt.Printf("\nMatrix A:\n")
+	for i:=0; i < 2; i++ {
+		fmt.Printf("\n")
+		for j:=0; j < 2; j++ {
+			fmt.Printf("%d ",a[i][j])
+		}
+		fmt.Printf("\n")
+	}
+	fmt.Printf("\nMatrix B:\n")
+	for i:=0; i < 2; i++ {
+		fmt.Printf("\n")
+		for j:=0; j < 2; j++ {
+			fmt.Printf("%d ",b[i][j])
+		}
+		fmt.Printf("\n")
+	}
+	
+	for i:=0; i < 2; i++ {
+		fmt.Printf("\n")
+		for j:=0; j < 2; j++ {
+			a[i][j] = a[i][j] * b[i][j];
+		}
+		
+	}
+	
+	
+	fmt.Printf("\nMatrix multiplication result:\n")
 	for i:=0; i < 2; i++ {
 		fmt.Printf("\n")
 		for j:=0; j < 2; j++ {
