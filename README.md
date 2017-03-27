@@ -10,4 +10,5 @@ Topics Learned so far:
 
 4. Functions (Pass by value, Pass by reference and inline functions)
 
+5. Email utility function to send Email to any user.
 Trying to build something productive where I can use Go along with other technologies. 
