@@ -12,6 +12,10 @@ Topics Learned so far:
 
 5. Email utility function to send Email to any user.
 
-6. Basic Sorting functions like bubble sort wiht complexity of O(n), selection sort O(n2)
+6. Basic Sorting functions like bubble sort wiht complexity of O(n), selection sort O(n2), counting Sort O(n)
+
+7. Simple REST Web Service running on 8080 port
+
+8. Web Crawler to extract links from the websites
 
 Trying to build something productive where I can use Go along with other technologies. 
