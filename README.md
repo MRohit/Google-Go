@@ -18,4 +18,6 @@ Topics Learned so far:
 
 8. Web Crawler to extract links from the websites
 
+9. Interfaces and Map in Go. Overriding functions using interfaces for different structures
+
 Trying to build something productive where I can use Go along with other technologies. 
