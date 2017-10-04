@@ -3,11 +3,11 @@ package main
 import "fmt"
 
 func main(){
-	var a interface{}
-	
+	var a interface{} = 24.0
+
 	switch i := a.(type) {
-		case nil:	  
-         fmt.Printf("type of x :%T",i) 
+		case nil:
+         fmt.Printf("type of x :%T",i)
 		case int:
 			fmt.Printf("a is of type int\n")
 		case float64:
