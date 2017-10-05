@@ -1,7 +1,7 @@
 package main
 
 import (
-		"fmt" 
+		"fmt"
 		)
 
 type language struct {
@@ -17,11 +17,11 @@ func main () {
 	lg1.name = "C"
 	lg1.features = "Procedural, case sensitive"
 	languagePtr = &lg1
-	
+
 	fmt.Printf("\nLanguage details:")
 	fmt.Printf("\nId\tName\tFeatures\n")
 	printStudeDetails(languagePtr);
-	
+
 }
 
 func printStudeDetails(lg1* language) {

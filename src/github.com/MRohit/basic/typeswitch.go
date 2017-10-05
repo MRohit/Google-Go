@@ -4,7 +4,6 @@ import "fmt"
 
 func main(){
 	var a interface{} = 24.0
-
 	switch i := a.(type) {
 		case nil:
          fmt.Printf("type of x :%T",i)

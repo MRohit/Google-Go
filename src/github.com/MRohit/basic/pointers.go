@@ -10,18 +10,19 @@ func main() {
 	for i:=0;i<MAX;i++ {
 		ptr[i] = &a[i];
 	}
-	
+
 	for i:=0;i<MAX;i++ {
 		fmt.Printf("\nValue of  a[%d] = %d",i,*ptr[i])
 	}
-	
+
 	var b int = 5
-	var bptr* int;
+	var bptr, cptr *int;
 	var	bptr2** int;
 	bptr = &b
-	bptr2 = &bptr 
-	
+	bptr2 = &bptr
+	cptr = bptr;
 	fmt.Printf("\nb Value:%d",b)
 	fmt.Printf("\nSingle Pointer bptr:%d",*bptr)
+	fmt.Printf("\nSingle Pointer cptr:%d",*cptr)
 	fmt.Printf("\nDouble Pointer bptr2:%d",**bptr2)
 }
